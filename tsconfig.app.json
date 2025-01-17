@@ -7,6 +7,11 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+    "baseUrl": "./src", // Define a base para caminhos não-relativos
+    "paths": {
+      "@/*": ["*"] // Configura o alias @ para apontar para a pasta src
+    },
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
