@@ -1,5 +1,9 @@
 @use "@/styles/colors/colors.scss";
 
+@tailwind base;       // Estilos base do Tailwind
+@tailwind components; // Componentes do Tailwind
+@tailwind utilities;  // Classes utilitárias do Tailwind
+
 * {
     margin: 0;
     padding: 0;
